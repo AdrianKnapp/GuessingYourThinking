@@ -32,6 +32,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .subtitle {
     display: flex;
@@ -89,7 +90,16 @@ body {
 .baixo {
     margin-top:20px;
 }
-
+.by {
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-self: center;
+    position: absolute;
+    top: 3px;
+    opacity: 50%;
+}
 
 
 @media (max-width: 650px) and (min-width:320px) {
@@ -99,7 +109,7 @@ body {
     }
     .box {
         margin: 0;
-        padding: 15px;
+        padding: 30px 15px 15px 15px;
     }
     .container {
         padding-top: 0px;
@@ -127,7 +137,7 @@ body {
     }
     .box {
         margin: 0;
-        padding: 15px;
+        padding: 30px 15px 15px 15px;
     }
     .container {
         padding:0;
