@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    color: #153922;
+    padding-bottom: 30px;
+}
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.box {
+    padding: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(103,207,117,1);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(103,207,117,1);
+    box-shadow: 0px 0px 8px -1px rgba(103,207,117,1);
+
+    border-radius: 10px;
+}
+.title {
+    widows: 100%;
+    height: auto;
+    font-weight: bold;;
+    font-size: 80px;;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.sub_line {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+}
+.input_line {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.result {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #153922;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 50px;
+    color: #153922;
+}
+.button {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #67CF75;
+    border:1px solid #fff;
+    border-radius: 5px;;
+    cursor: pointer;
+}
+.button:hover {
+    border: 1px solid #153922;
+
+}
+.line_title {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.adivinhei {
+    font-size: 80px;
+    margin-top: -20px;
+    padding: 0;
+}
+.baixo {
+    margin-top:20px;
+}
+
+
+
+@media (max-width: 650px) and (min-width:320px) {
+    .container {
+        padding-top: 0px;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .sub_line {
+        font-size: 15px;
+        padding: 5px 0 5px 0;
+    }
+    .line_title {
+        font-size: 20px;
+    }
+    .box {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        padding-top: 0px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .sub_line {
+        font-size: 15px;
+        padding: 5px 0 5px 0;
+    }
+    .line_title {
+        font-size: 20px;
+    }
+    .box {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+    }
+}
