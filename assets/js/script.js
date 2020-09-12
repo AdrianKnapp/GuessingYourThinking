@@ -1,6 +1,9 @@
-
-
-
+function apertei() {
+    document.getElementById("cor").className = 'newbutton'
+}
+function soltei() {
+    document.getElementById("cor").className = 'button'
+}
 function calcular() {
     if(document.getElementById("resultado").value == "") {
         alert("Preencha com o resultado dos seus cálculos.")
