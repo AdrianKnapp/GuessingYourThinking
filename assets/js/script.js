@@ -6,7 +6,11 @@ function soltei() {
 }
 function calcular() {
     if(document.getElementById("resultado").value == "") {
+<<<<<<< HEAD
         alert("Preencha com o resultado dos seus cálculos.")
+=======
+        alert("Preencha com o resultado dos seus c�lculos.")
+>>>>>>> 5483e2a (Segundo commit)
     } else {
         var resultado = parseInt(document.getElementById("resultado").value);
 
