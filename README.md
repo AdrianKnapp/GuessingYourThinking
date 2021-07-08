@@ -1,3 +1,3 @@
-Hi, this a document where im tested a thing.
+Hi, this is a page where I've tested my new knowledge. 
 
-Now, that platform can knows who number you thinking.
+Now, this platform can know which number you are thinking.
